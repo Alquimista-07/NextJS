@@ -4,7 +4,7 @@
 El siguiente enlace nos dirige a la web oficial de React https://nextjs.org/
 
 -----------------------------------------------------------------------------------------------------------
-* Los siguientes comando me permite crear una aplicación en NextJS
+* Los siguientes comandos me permiten crear una aplicación en NextJS
 -----------------------------------------------------------------------------------------------------------
 
   - npx create-next-app nombre-app
