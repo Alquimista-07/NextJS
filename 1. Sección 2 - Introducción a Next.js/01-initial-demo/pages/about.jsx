@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 
+import {Navbar} from '@/components/Navbar';
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function AboutPage() {
@@ -14,8 +16,12 @@ export default function AboutPage() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Navbar/>
       
       <main className={`${styles.main} ${inter.className}`}>
+
+        <h1>About Page</h1>
         
         <h1 className={styles.title}>
           {/* NOTA: Al algunas veces en donde necesitamos decirle a Next Hey sabes que Next necesito que hasta donde sea posible hagas un prefetch de la siguiente página que puede apuntar a una página en particular

@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 
+import { Navbar } from '@/components/Navbar'
+
 const inter = Inter({ subsets: ['latin'] })
 // NOTA: Acá tenemos un functional component que no es más que es un simple componente de React, solo que hay ciertas 
 //       diferencias con un componente tradicional en React. Primero es obligatorio que las páginas que se encuentran acá dentro del directorio pages sean la exportación por defecto (default). Otra cosa es que acá el functional 
@@ -29,8 +31,12 @@ export default function HomePage() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Navbar/>
       
       <main className={`${styles.main} ${inter.className}`}>
+
+        <h1>Home Page</h1>
         
         <h1 className={styles.title}>
           {/* NOTA: Al algunas veces en donde necesitamos decirle a Next Hey sabes que Next necesito que hasta donde sea posible hagas un prefetch de la siguiente página que puede apuntar a una página en particular
