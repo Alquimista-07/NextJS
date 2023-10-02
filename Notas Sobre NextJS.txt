@@ -1,0 +1,21 @@
+-----------------------------------------------------------------------------------------------------------------------------------------
+                                    Static Generation y el Server-Site Rendering
+-----------------------------------------------------------------------------------------------------------------------------------------
+* Next trabaja con dos formas de Pre-Renderización, el Static Generation y el Server-Site Rendering.
+  Para los cuales podemos visitar https://nextjs.org/docs/basic-features/pages#two-forms-of-pre-rendering 
+  y revisar la documentación.
+  Por defecto Next va a usar el Static Generation hasta donde sea posible, hay un momento en el cual vamos
+  a tener que usar Server-site Rendering y la diferencia básicamente radica en el punto en el cual se construye
+  la página basada en la solicitud.
+
+  Por ejemplo si nos vamos al Server-Site Rendering esto se va a generar cada vez que el cliente hace una solicitud
+  por ejemplo traer los ultimos productos almacenados en la base de datos, lo cual causa que el componente se regenere
+  y el Static Generation se genera en el momenento de construcción del sitio y es prácticamente algo que no va a cambiar
+  por ejemplo la página de about que mantiene contenido estático y que no importa cuantas veces se solicite siempre va a 
+  mantener el mismo contenido y es lo recomendado de usar el Static Rendering hasta donde sea posible. Y la forma como
+  hace Next para saber cuando usar uno u otro es a través de unas funciones especiales que nosotros definimos.
+
+NOTA INTERESANTE: Algo muy interesante es que nuestras aplicaciones de Next al ser generadas del lado del servidor, estas
+                  pueden funcionar inclusive sin JavaScript y esto es genial porque ayuda mucho a la indexación de los bots
+                  de Google que no van a ejecutar código JavaScript cuando entren al sitio ayudando al SEO del sitio.
+-----------------------------------------------------------------------------------------------------------------------------------------
