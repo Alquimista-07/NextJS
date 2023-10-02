@@ -1,0 +1,40 @@
+------------------------------------------------------------------------------------------------
+					                	   NextJS
+------------------------------------------------------------------------------------------------
+El siguiente enlace nos dirige a la web oficial de React https://nextjs.org/
+
+-----------------------------------------------------------------------------------------------------------
+* Los siguientes comando me permite crear una aplicación en NextJS
+-----------------------------------------------------------------------------------------------------------
+
+  - npx create-next-app nombre-app
+  - yarn create next-app
+  - npx create-next-app@latest --typescript
+  - yarn create next-app --typescript
+	
+  En el caso del curso se uso el comando yarn create next-app y para el SETUP se realizan las 
+  siguientes preguntas:
+
+    SETUP
+    * Nombre del proyecto (Lo indicamos)
+    * Lo siguiente que se nos va a solictar es si queremos usar Typescript
+    * Lo siguiente si queremos usar ESLint 
+    * Posteriormente si queremos usar Tailwind
+    * Luego si queremos usar la carpeta src
+    * Luego si queremos usar el App Router
+    * Y al final si queremos usar el import alias
+  
+  OJO: Hay que tener en cuenta que en dichas opciones podemos elegir Yes/No y corresponde a como
+       queramos configurar el proyecto.
+
+-----------------------------------------------------------------------------------------------------------
+* El siguiente comando me permite arrancar una aplicación en Nextjs
+-----------------------------------------------------------------------------------------------------------
+
+	npm run dev
+	
+-----------------------------------------------------------------------------------------------------------
+* El siguiente comando me permite hacer el build de producción en Nextjs
+-----------------------------------------------------------------------------------------------------------
+
+	npm run build
