@@ -1,0 +1,5 @@
+Como su nombre indica dentro de este directorio api tenemos una api que ya esta lista, es una RESTFull API que nosotros podemos utilizar
+que dentro ya viene con un archivo de ejemplo llamado hello.js y como sabemos que el enrutamiento es por directorios podemos acceder y 
+probar dirigiendonos a http://localhost:3000/api/hello y eso nos da una respuesta JSON, por lo tanto podemos usar Postam o cualquier otra
+aplicación. Adicionalmente dependiendo de los gustos de cada quien y en lo personal prefiero trabajar mis RESTFull APIs de forma independiente
+al frontend pero en NextJS esto es muy poderoso también, inclusive cuenta con middlewares, puedo recibir archivos colocarlos File System

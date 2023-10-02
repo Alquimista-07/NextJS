@@ -1,0 +1,4 @@
+Dentro de este directorio vamos a colocar recursos como css, imágenes, js o código que no va a ser compilado
+sino que simplemente va a ser servido desde esta carpeta pública lo cual es muy útil. Por ejemplo cuando queremos
+que no se nos generen hash en las imágenes estas las podemos colocar acá o también por ejemplo estilos estáticos
+que no queremos que cambien.
