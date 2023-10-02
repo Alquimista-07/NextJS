@@ -28,10 +28,11 @@ El siguiente enlace nos dirige a la web oficial de React https://nextjs.org/
        queramos configurar el proyecto.
 
 -----------------------------------------------------------------------------------------------------------
-* El siguiente comando me permite arrancar una aplicación en Nextjs
+* Los siguientes comandos me permite arrancar una aplicación en Nextjs
 -----------------------------------------------------------------------------------------------------------
 
-	npm run dev
+	- npm run dev
+  - yarn dev
 	
 -----------------------------------------------------------------------------------------------------------
 * Los siguientes comandos me permite hacer el build de producción en Nextjs
@@ -39,3 +40,10 @@ El siguiente enlace nos dirige a la web oficial de React https://nextjs.org/
 
 	- npm run build
   - yarn build
+
+-----------------------------------------------------------------------------------------------------------
+* Los siguientes comandos me permite hacer la aplicación en producción en Nextjs
+-----------------------------------------------------------------------------------------------------------
+
+  - npm start
+  - yarn start
