@@ -17,6 +17,11 @@ const inter = Inter({ subsets: ['latin'] })
 export default function HomePage() {
   return (
     <>
+      {/* EL Head como nos damos cuenta es un componente especial y propio de Next que le dice al mismo framework, Hey! la información que está aquí es información que debería estar en el head de la página literalmente en el head del html.
+          Adicionalmente podemos tener múltiples Head y no necesariamente en el mismo componente los cuales añaden información adicional o otra información dependiendo de la página en donde me encuentre teniendo en cuenta que si dejamos
+          por ejemplo el title en ambos lo que contenga el primero va a ser reescrito por lo tanto por eso se dice que sirve es para agregar información adicioanl. Adicionalmente para más información podemos ir a la web oficial y revisar
+          la documentación.
+      */}
       <Head>
         <title>Home - NextJS</title>
         <meta name="description" content="Home Page" />
