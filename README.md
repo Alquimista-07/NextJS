@@ -3,7 +3,7 @@
 
 SSR, SSG, CSR, ISR, Middlewares, Rutas dinámicas, Next API, Next Auth, Material UI, despliegues, Cookies y más.
 
-Repositorio git creado para almacenar los ejercicios realizados para el curso de Udemy -Next.js: El framework de React para producción.
+Repositorio git creado para almacenar los ejercicios realizados para el curso de [Udemy](https://www.udemy.com/course/nextjs-fh/) -Next.js: El framework de React para producción.
 
 Instructor: Fernando Herrera.
 
